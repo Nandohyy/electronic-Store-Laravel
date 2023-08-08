@@ -1,0 +1,110 @@
+.copyright {
+  background-color: #1a252f;
+}
+
+.fixed {
+  -ms-flex: 0 0 250px;
+  flex: 0 0 250px;
+}
+
+.content-grey {
+  background-color: #f8f9fc;
+}
+
+hr {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+.img-profile {
+  height: 2rem;
+  width: 2rem;
+}
+
+.profile-font {
+  color: #858796 !important;
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.card-header {
+  background-color: #f8f9fc;
+  border-bottom: 1px solid #e3e6f0;
+}
+
+
+  /* Custom styles for the admin product page */
+
+  /* Card styles */
+  .card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-header {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  /* Form styles */
+  .form-control {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  /* Table styles */
+  .table {
+    width: 100%;
+    margin-bottom: 0;
+    color: #212529;
+    border-collapse: collapse;
+  }
+
+  .table th,
+  .table td {
+    padding: 10px;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+
+  .table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    border-bottom: 2px solid #dee2e6;
+  }
+
+  /* Button styles */
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+
+  /* Responsive styles */
+  @media (max-width: 576px) {
+    .col-form-label {
+      text-align: left !important;
+    }
+  }
+
+
+
